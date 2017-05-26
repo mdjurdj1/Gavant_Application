@@ -1,7 +1,5 @@
-
 <div id="header_div">
   <h2>
-    <!-- <img class="ui avatar image" src="/assets/images/mypic.png" id="my_pic"> -->
      &lt; Michael_Djurdjevic / &gt;</h2>
      <div class="ui divider"></div>
   <h2>So Why Hire Me?</h2><br/>
@@ -11,18 +9,13 @@
   </p>
 </div>
 
-<div class="ui raised padded text container segment" id="main_div">
-  <h2 class="ui header"><img class="ui avatar image" src="/assets/images/mypic.png" id="my_pic">About Me</h2>
-  <div class="ui divider"></div>
-  <p>Hey to all the great people at Gavant! I'd like to tell you a bit about how I got to where I'm at now. I taught myself the basics of coding several years back, hacking old computer games to artifically increase their difficulty.
-     Over the past few years, I was a hobbyist web designer, creating simple domains with wordpress and drupal for friends & family. Wanting to improve my skills and get to a point where I could create real applications,
-     I spent many nights learning C# and JavaScript in Visual Studio. I took several college-level courses on Edx and Khan Academy in my free time to brush up on basic computer science concepts.
-   </p>
-  <p>See, I originally wanted to become a lawyer. While studying for my LSAT, I found myself spending way too much time creating JavaScript functions to predict answers to the formulaic questions I was coming across.
-    Eventually, I was focused on having fun trying to come up with algorithms for solving the easier logic puzzles I was coming across.
-
-
-  </p>
+<div>
+  {{#link-to "links" }}
+    RESUME
+  {{/link-to}}
+  {{#link-to "about" }}
+    ABOUT
+  {{/link-to}}
 </div>
 
 {{outlet}}
