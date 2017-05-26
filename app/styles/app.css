@@ -1,3 +1,11 @@
 body {
-  background-image: url(../assets/images/embers.jpg);
+  background: url(images/embers.jpg) no-repeat center center fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+}
+
+div#main_div {
+  margin-top: 10%
 }
