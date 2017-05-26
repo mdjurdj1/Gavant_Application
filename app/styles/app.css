@@ -19,7 +19,8 @@ div#main_div {
       background-size: cover;
   height: 18em;
   background-color: #6A3913;
-  color: black;
+  color: white;
+   text-shadow: 3px 1px 10px rgba(0, 0, 0, 1);
   padding-top: 2em;
   text-align: center;
   font-size: 1.1em;
