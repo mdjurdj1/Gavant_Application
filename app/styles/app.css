@@ -1,7 +1,6 @@
 *{
     margin:0;
     padding:0;
-    font-family: 'Montserrat', sans-serif;
 }
 
 body {
@@ -13,12 +12,12 @@ body {
 
 div#main_div {
   font-family: 'Montserrat', sans-serif;
-  background: url(images/05.jpg) no-repeat center center fixed;
+  background: url(images/bg.jpg) no-repeat center center fixed;
       -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;
       background-size: cover;
-  height: 16em;
+  height: 18em;
   background-color: #6A3913;
   color: black;
   padding-top: 2em;
@@ -27,9 +26,12 @@ div#main_div {
   font-weight: bold;
 }
 
-h2#main_header {
-  font-family: 'Montserrat', sans-serif;
-  color: black;
+div#main_div h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+div#main_div p {
+    font-size: 1.2em;
 }
 
 img#my_pic {
