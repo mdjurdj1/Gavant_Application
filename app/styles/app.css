@@ -43,7 +43,7 @@ img#my_pic {
    margin-right: 1em;
 }
 
-/*//// MAIN DIV STYLING*/
+/*//// ABOUT_ME DIV STYLING*/
 
 div#main_div {
   padding-left: 3em;
@@ -56,4 +56,17 @@ h2#about_me {
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     color: #00B3E6;
+}
+
+/*//// NAVBAR STYLING*/
+
+div#nav_menu {
+  margin: 1em;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2em;
+  text-align: center;
+}
+
+span.nav_text {
+  margin-left: 1em;
 }

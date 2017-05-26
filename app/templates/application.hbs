@@ -9,13 +9,15 @@
   </p>
 </div>
 
-<div>
-  {{#link-to "links" }}
-    RESUME
-  {{/link-to}}
+<div id="nav_menu">
+  <span>
   {{#link-to "about" }}
-    ABOUT
+      <span class="nav_text"><i class="hand peace icon"></i>About Me</span>
   {{/link-to}}
+  {{#link-to "links" }}
+    <span class="nav_text"><i class="file text outline icon"></i>My Resume</span>
+  {{/link-to}}
+  </span>
 </div>
 
 {{outlet}}
