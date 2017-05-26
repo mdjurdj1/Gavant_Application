@@ -1,11 +1,37 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Montserrat', sans-serif;
+}
+
 body {
-  background: url(images/embers.jpg) no-repeat center center fixed;
+  height: 100%;
+  box-sizing:border-box;
+}
+
+/*//// MAIN PAGE STYLING*/
+
+div#main_div {
+  font-family: 'Montserrat', sans-serif;
+  background: url(images/05.jpg) no-repeat center center fixed;
       -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;
       background-size: cover;
+  height: 16em;
+  background-color: #6A3913;
+  color: black;
+  padding-top: 2em;
+  text-align: center;
+  font-size: 1.1em;
+  font-weight: bold;
 }
 
-div#main_div {
-  margin-top: 10%
+h2#main_header {
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+}
+
+img#my_pic {
+  box-shadow: 10px 10px;
 }
