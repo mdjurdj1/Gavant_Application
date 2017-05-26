@@ -70,3 +70,11 @@ div#nav_menu {
 span.nav_text {
   margin-left: 1em;
 }
+
+/*//// RESUME STYLING*/
+
+div#resume_container {
+  width: 70%;
+  margin: auto;
+   box-shadow: 0px 1px 12px rgba(0, 0, 0, 1);
+}

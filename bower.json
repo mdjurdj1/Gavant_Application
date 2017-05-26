@@ -1,6 +1,7 @@
 {
   "name": "embers-for-gavant",
   "dependencies": {
-    "semantic-ui": "^2.2.10"
+    "semantic-ui": "^2.2.10",
+    "pdfjs-dist": "1.7.331"
   }
 }
