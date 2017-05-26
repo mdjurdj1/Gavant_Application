@@ -1,7 +1,7 @@
 <h2>{{title}}</h2>
 
 <ul>
-  {{#each model as |link|}}
-    <li>{{link}}</li>
+  {{#each links as |link|}}
+    <li {{action "showInfo" link}}>{{link}}</li>
   {{/each}}
 </ul>
