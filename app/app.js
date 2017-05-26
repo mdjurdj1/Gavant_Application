@@ -5,6 +5,9 @@ import config from './config/environment';
 
 let App;
 
+let btnA = document.getElementById('body');
+btnA.background = "url(assets/images/embers.jpg)";
+
 Ember.MODEL_FACTORY_INJECTIONS = true;
 
 App = Ember.Application.extend({
